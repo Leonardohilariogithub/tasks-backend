@@ -11,7 +11,7 @@ public class DateUtilsTest {
 	@Test
 	public void test() {
 		LocalDate date = LocalDate.of(2030, 01, 01);
-		DateUtils.isEqualOrFutureDate(date);
+		DateUtils.isEqualOrFutureDate(dat);
 	}
 
 }
